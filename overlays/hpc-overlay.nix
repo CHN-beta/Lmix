@@ -14,6 +14,7 @@ in
   lmix-pkgs = rec {
 
     # intel
+    inherit intel-oneapi_2023_1_0;
     intel-oneapi-compilers_2023_1_0 = intel-oneapi_2023_1_0.icx;
     intel-oneapi-classic-compilers_2021_9_0 = intel-oneapi_2023_1_0.icc;
     intel-oneapi-ifort_2021_9_0 = intel-oneapi_2023_1_0.ifort;
